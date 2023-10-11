@@ -1,0 +1,4 @@
+\\Mac\Home\Desktop\2tdi A S A\AspTpValidation\bin\AspTpValidation.dll
+\\Mac\Home\Desktop\2tdi A S A\AspTpValidation\bin\AspTpValidation.pdb
+\\Mac\Home\Desktop\2tdi A S A\AspTpValidation\obj\Debug\AspTpValidation.dll
+\\Mac\Home\Desktop\2tdi A S A\AspTpValidation\obj\Debug\AspTpValidation.pdb

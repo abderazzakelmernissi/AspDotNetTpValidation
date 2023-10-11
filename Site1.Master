@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="AspTpValidation.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Bonjour</title>
+     <style type="text/css">        body {            font-size:14px;            font-family:verdana;            font-weight:bold;            text-align:center;        }    </style> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+<form id="form1" runat="server">   
+ <table cellpadding="0" cellspacing="0" border="1" style="width:600px; height:400px">   
+
+     <tr>      
+      <td colspan="2" style="height: 50px">
+                <asp:ContentPlaceHolder ID="top" runat="server"></asp:ContentPlaceHolder>
+                <p>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        Bonjour
+                    </asp:ContentPlaceHolder>
+                </p>
+            </td>        
+</tr>        
+<tr>            
+<td style="width: 99px; height: 350px">
+                
+<asp:ContentPlaceHolder ID="bottom_left" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+    </asp:ContentPlaceHolder>
+    </asp:ContentPlaceHolder>
+            </td>            
+<td style="width: 500px; height: 350px">                
+<asp:ContentPlaceHolder ID="bottom_right" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        <asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="suivant" />
+        <a href ="WebForm3.aspx" ></a>
+    </asp:ContentPlaceHolder>
+    </asp:ContentPlaceHolder>           
+    <asp:Button ID="Button2" runat="server" Text="Button" />
+ </td>        </tr>   
+ </table>    
+</form> 
+</body> 
+</html>
